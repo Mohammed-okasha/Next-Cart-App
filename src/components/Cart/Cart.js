@@ -39,7 +39,7 @@ const Cart = () => {
       {confirmIsOpen && (
         <ConfirmModal
           title="clear"
-          message="are sure you want clear cart!"
+          message="are you sure you want clear cart?"
           onRemove={clearCartHandler}
           onCloseConfirm={closeConfirmHandler}
         />
