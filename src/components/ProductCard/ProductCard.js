@@ -9,7 +9,7 @@ const ProductCard = ({ product }) => {
   const ctx = useContext(CartContext);
   const router = useRouter();
 
-  const addProductHandler = async () => {
+  const addProductHandler = () => {
     ctx.addCartItem(product);
     toast.success("product added successfully", {
       position: "top-left",
