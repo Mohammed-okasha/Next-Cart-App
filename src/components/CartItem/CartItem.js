@@ -51,7 +51,7 @@ const CartItem = ({ item }) => {
       {confirmIsOpen && (
         <ConfirmModal
           title="remove"
-          message={"are you sure you want remove this item?"}
+          message={"are you sure you want remove this product?"}
           onRemove={removeItemHandler}
           onCloseConfirm={closeConfirmHandler}
         />
