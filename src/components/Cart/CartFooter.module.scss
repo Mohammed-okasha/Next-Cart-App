@@ -1,0 +1,15 @@
+@import "../../sass//index";
+
+.cart_footer {
+  margin-top: calc($spacer * 2);
+  @include space-between;
+  .cart_total {
+    span {
+      font-weight: 600;
+      color: $black;
+    }
+    strong {
+      color: $secondary;
+    }
+  }
+}

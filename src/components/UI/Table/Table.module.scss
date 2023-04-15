@@ -1,0 +1,18 @@
+@import "../../../sass/index";
+
+.table_wrapper {
+  overflow-x: auto;
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    .table_head {
+      background-color: $primary;
+      th {
+        padding: $spacer;
+        color: $white;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../sass/index";
+
+.cart_button {
+  @include circle(35px);
+  background-color: $light;
+
+  position: relative;
+  .total_cart_items {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -20px;
+    @include circle(25px);
+    background-color: $secondary;
+    color: $white;
+    line-height: 25px;
+    font: {
+      size: 14px;
+      family: initial;
+    }
+  }
+}

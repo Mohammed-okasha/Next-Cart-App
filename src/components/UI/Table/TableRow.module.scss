@@ -1,0 +1,19 @@
+@import "../../../sass/index";
+
+.table_row {
+  border-bottom: $border;
+  td {
+    padding: $spacer;
+    text-align: center;
+    img {
+      max-width: 40px;
+    }
+    span {
+      color: $black;
+      font: {
+        size: 14px;
+        weight: 600;
+      }
+    }
+  }
+}

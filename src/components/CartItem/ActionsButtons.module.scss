@@ -1,0 +1,32 @@
+@import "../../sass/index";
+
+.quantity_actions {
+  @include centering;
+  gap: calc($spacer * 0.75);
+  flex-wrap: nowrap;
+  .quant_btn {
+    @include circle(25px);
+    background-color: $secondary;
+    svg {
+      display: block;
+      margin: 0 auto;
+      color: $white;
+      font-size: calc($spacer * 0.75);
+    }
+    &:disabled,
+    &:disabled:hover,
+    &:disabled:active {
+      background-color: $muted;
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.remove_btn {
+  background-color: unset;
+  svg {
+    color: red;
+    font-size: 1.25rem;
+  }
+}

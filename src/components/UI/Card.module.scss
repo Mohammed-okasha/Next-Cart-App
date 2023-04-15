@@ -1,0 +1,8 @@
+@use "sass:math";
+@import "../../sass/index";
+
+.card {
+  background-color: $white;
+  border-radius: math.div($radius, 4);
+  padding: calc($spacer * 2) $spacer;
+}

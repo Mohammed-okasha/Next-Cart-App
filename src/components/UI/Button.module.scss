@@ -1,0 +1,13 @@
+@use "sass:math";
+@import "../../sass/index";
+
+.button {
+  background-color: $secondary;
+  color: $white;
+  padding: calc($spacer * 0.75) calc($spacer * 2);
+  border-radius: math.div($radius, 4);
+}
+
+.button.danger {
+  background-color: red;
+}

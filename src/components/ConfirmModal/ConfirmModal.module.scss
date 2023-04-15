@@ -1,0 +1,23 @@
+@import "../../sass/index";
+
+.icon {
+  @include circle(90px);
+  @include centering;
+  margin: 0 auto;
+  border: $border;
+  svg {
+    font-size: 2rem;
+    color: red;
+  }
+}
+
+.message {
+  margin: $spacer 0 calc($spacer * 2);
+  font-size: 14px;
+  text-align: center;
+}
+
+.confirm_actions {
+  @include centering;
+  gap: calc($spacer * 0.75);
+}

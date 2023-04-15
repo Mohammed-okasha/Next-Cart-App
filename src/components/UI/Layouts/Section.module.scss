@@ -1,0 +1,10 @@
+@import "../../../sass/index";
+
+.section {
+  padding: calc($spacer * 2) 0;
+  .title {
+    color: $black;
+    text-align: center;
+    margin-bottom: calc($spacer * 2);
+  }
+}

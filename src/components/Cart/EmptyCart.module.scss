@@ -1,0 +1,14 @@
+@import "../../sass/index";
+
+.empty_cart {
+  height: 250px;
+  @include centering;
+  flex-direction: column;
+  gap: $spacer;
+  .icon {
+    color: $secondary;
+    svg {
+      font-size: 3rem;
+    }
+  }
+}
